@@ -1,14 +1,18 @@
-# Setup
+## Setup
 1. Run `export NODE_OPTIONS=--openssl-legacy-provider`   
    Otherwise server won't start
 1. Do following steps
    ```
-	cd example
+	cd my-app
 	yarn
 	yarn start
    ```
-   Delete package.json.lock (maybe needed)
+   Delete package.json.lock & _node_module in root & project-folder (maybe needed)
 1. Open http://localhost:3000/a
+
+
+## Nice2Know
+1. 'example' contains basic-template
 
 
 ---
