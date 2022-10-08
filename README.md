@@ -1,7 +1,12 @@
 # Setup
 1. Run `export NODE_OPTIONS=--openssl-legacy-provider`   
    Otherwise server won't start
-1. Run `yarn start`  
+1. Do following steps
+   ````
+	cd example
+	yarn
+	yarn start
+   ```
    Delete package.json.lock (maybe needed)
 1. Open http://localhost:3000/a
 
