@@ -1,3 +1,13 @@
+# Setup
+1. Run `export NODE_OPTIONS=--openssl-legacy-provider`   
+   Otherwise server won't start
+1. Run `yarn start`  
+   Delete package.json.lock (maybe needed)
+1. Open http://localhost:3000/a
+
+
+---
+
 # "Saga First" Router for React/Redux/Saga Projects
 
 This router is inspired by best parts of [redux-saga-router](https://github.com/jfairbank/redux-saga-router) and [redux-first-router](https://github.com/faceyspacey/redux-first-router). A rather long introduction about the reasoning behind can be found at [Pre Release: Redux-First Router — A Step Beyond Redux-Little-Router](https://medium.com/faceyspacey/pre-release-redux-first-router-a-step-beyond-redux-little-router-cd2716576aea), but you can choose to just believe us a read further :)
