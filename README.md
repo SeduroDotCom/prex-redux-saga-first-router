@@ -2,7 +2,7 @@
 1. Run `export NODE_OPTIONS=--openssl-legacy-provider`   
    Otherwise server won't start
 1. Do following steps
-   ````
+   ```
 	cd example
 	yarn
 	yarn start
