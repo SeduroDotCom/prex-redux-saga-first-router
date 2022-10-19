@@ -13,6 +13,7 @@
 
 ## Nice2Know
 1. 'example' contains basic-template
+2. Supports Chrome Plugin 'React Developer Tools' (Component print, store/prop viewer)
 
 
 ---
